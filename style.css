@@ -1,0 +1,240 @@
+body {
+    background-color: #f4e6ee; /* Taustaväri koko sivulle */
+    margin: 0; /* Poistaa oletusarvoisen marginaalin */
+    font-family: 'DM Sans', sans-serif; /* Aseta oletusfontti koko sivulle */
+}
+
+/* Tyylit kuvalle */
+.circle-image {
+    width: 100px; /* Kuva halutun kokoiseksi */
+    height: 100px; /* Kuva halutun kokoiseksi */
+    border-radius: 50%; /* Muodostaa ympyrän */
+    object-fit: cover; /* Leikkaa kuvaa, jotta se täyttää ympyrän */
+    margin-right: 50px; /* Lisää tilaa kuvan oikealle puolelle */
+}
+
+/* Tyylit headerille */
+header {
+    display: flex; /* Käytä flexbox-asettelua */
+    flex-direction: column; /* Asettaa elementit pystysuoraan */
+    padding: 20px;
+    background-color: #e794c7; /* Taustaväri */
+    color: white;
+    border-radius: 15px; /* Pyöristää kulmat */
+    margin: 20px; /* Lisää tilaa headerin ympärille */
+}
+
+/* Tyylit header-text-luokalle */
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Tyylit nav-links-luokalle */
+.nav-links {
+    margin-top: auto; /* Työntää linkit headerin alareunaan */
+    margin-top: 20px; /* Lisää tilaa linkkien alapuolelle */
+}
+
+.nav-links ul {
+    list-style: none; /* Poistaa luettelomerkit */
+    padding: 0; /* Poistaa oletuspaddingin */
+    margin: 0; /* Poistaa oletusmarginaalin */
+    display: flex; /* Näyttää linkit vaakasuunnassa */
+    gap: 20px; /* Lisää väliä linkkien väliin */
+}
+
+.nav-links a {
+    color: white; /* Linkkien väri */
+    text-decoration: none; /* Poistaa alaviivan */
+    font-size: 1rem; /* Fonttikoko */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Alaviiva hover-tilassa */
+}
+
+/* Tyylit h1:lle */
+h1 {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+/* Tyylit h2:lle */
+h2 {
+    font-family: 'DM Sans', sans-serif; /* Tai mikä tahansa muu fontti */
+    margin: 0; /* Poistaa oletusarvoisen marginaalin */
+    font-weight: normal; /* Vaihda fontin paino tarvittaessa */
+    font-size: 1.5rem; /* Säätää alaotsikon kokoa */
+    color: white; /* Alaotsikon väri */
+}
+
+/* Tyylit h3:lle */
+h3 {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    color: #e794c7;
+}
+
+/* Tyylit h4:lle */
+h4 {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+/* Tyylit h5:lle */
+h5 {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+/* Tyylit p:lle */
+p {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0; /* Poistaa oletusarvoisen marginaalin */
+    font-size: 12px;
+}
+
+/* Tyylit content-sektiolle */
+.content {
+    display: flex; /* Käytä flexbox-asettelua */
+    margin: 20px; /* Lisää tilaa ympärille */
+}
+
+/* Tyylit info-boxille */
+.info-box {
+    flex: 0 0 280px; /* Kiinteä leveys 280px */
+    padding: 20px;
+    background-color: white; /* Taustaväri laatikolle */
+    border-radius: 10px; /* Pyöristää kulmat */
+}
+
+/* Tyylit main-textille */
+.main-text {
+    flex: 2; /* Ota enemmän tilaa oikealta puolelta */
+    padding: 20px;
+}
+
+/* Tyylit h3 info-boxissa */
+.info-box h3 {
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px; /* Lisää tilaa alaotsikon ja tekstin väliin */
+}
+
+/* Tyylit p info-boxissa */
+.info-box p {
+    margin-bottom: 10px; /* Lisää tilaa kappaleiden väliin */
+    line-height: 1.6; /* Parantaa luettavuutta */
+}
+
+/* Tyylit koulutus-text:lle */
+.koulutus-text {
+    flex: 0 0 280px; /* Kiinteä leveys 280px */
+    padding: 20px;
+    background-color: white; /* Taustaväri laatikolle */
+    border-radius: 10px; /* Pyöristää kulmat */
+    
+}
+
+/* Tyylit p koulutus-textissä */
+.koulutus-text p {
+    font-size: 12px; /* Muokkaa luettelomerkkien fonttikokoa */
+    margin-bottom: 10px; /* Lisää tilaa kappaleiden väliin */
+    margin-left: 20px; /* Lisää tilaa kappaleiden väliin */
+    line-height: 1.6; /* Parantaa luettavuutta */
+}
+
+.koulutus-text ul {
+    font-size: 12px; /* Muokkaa listan fonttikokoa */
+    padding: 0; /* Poistaa oletusarvoisen täytteen */
+    list-style-type: disc; /* Määrittää luettelomerkit (esim. disk) */
+    line-height: 1.6; /* Parantaa luettavuutta */
+    margin-left: 20px; /* Lisää tilaa laatikon ja muiden elementtien väliin */
+}
+
+/* Tyylit video-text:lle */
+.video-text {
+    flex: 0 0 280px; /* Kiinteä leveys 280px */
+    padding: 20px;
+    background-color: white; /* Taustaväri laatikolle */
+    border-radius: 10px; /* Pyöristää kulmat */
+   
+}
+
+/* Tyylit p video-textissä */
+.video-text p {
+    margin-bottom: 10px; /* Lisää tilaa kappaleiden väliin */
+    line-height: 1.6; /* Parantaa luettavuutta */
+}
+
+.video-text iframe {
+    width: 100%; /* Skaalaa leveys täyttämään vanhemman elementin */
+    height: auto; /* Automaattinen korkeus säilyttäen kuvasuhteen */
+    max-width: 100%; /* Estää ylivuodon */
+    display: block; /* Poistaa ylimääräisen marginaalin */
+}
+
+/* Tyylit videolle */
+.video-text video {
+    margin: 20px;
+    width: 100%; /* Varmistaa, että video täyttää laatikon leveyden */
+    height: auto; /* Säilyttää videon kuvasuhteen */
+    border-radius: 10px; /* Pyöristää kulmat */
+    
+}
+
+/* Tyylit lomakkeelle */
+.contact-form {
+    width: 100%; /* Määrittele leveys 100% */
+    max-width: 600px; /* Määrittele maksimileveys */
+    margin: 0 auto; /* Keskittää lomakkeen */
+    padding: 20px; /* Lisää sisennys */
+    border: 1px solid #ccc; /* Lisää reuna */
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    background-color: #ffffff; /* Taustaväri */
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form textarea {
+    width: 100%; /* Varmistaa, että kentät täyttävät 100% vanhemmasta elementistä */
+    padding: 10px; /* Lisää sisennys kenttiin */
+    margin-bottom: 20px; /* Lisää väliä kenttien väliin */
+    border: 1px solid #ddd; /* Reunan tyyli */
+    border-radius: 5px; /* Pyöristetyt kulmat */
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #e794c7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #d682b0;
+}

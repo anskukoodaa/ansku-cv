@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Anne-Mari Pitkänen</title>
+    <link href="https://bootswatch.com/5/lumen/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Mainpage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="CV.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="harrastukset.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="yhteystieto.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <header class="text-center mt-4">
+        <img src="ansku.JPG" alt="Profile Image" class="circle-image img-fluid d-block mx-auto">
+        <div class="header-text">
+            <h1>CV Anne-Mari Pitkänen</h1>
+            <h4>Founder, CEO @ AliceAI Learning Oy | Master of Education | Computer Scientist</h4>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label>How did you hear about us?</label>
+                <input type="radio" id="google" name="referral" value="Google">
+                <label for="google">Google</label>
+                <input type="radio" id="friend" name="referral" value="Friend">
+                <label for="friend">Friend</label>
+                <input type="radio" id="linkedin" name="referral" value="LinkedIn">
+                <label for="linkedin">LinkedIn</label>
+                <input type="radio" id="other" name="referral" value="Other">
+                <label for="other">Other</label>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

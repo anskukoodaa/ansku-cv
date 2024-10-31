@@ -1,2 +1,1 @@
 # ansku-cv
-anskukoodaa
